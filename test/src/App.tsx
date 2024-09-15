@@ -1,3 +1,5 @@
-export const App = () => {
-  return <div></div>;
+import { Outlet } from "react-router-dom";
+
+export const App: React.FC = () => {
+  return <Outlet />;
 };
